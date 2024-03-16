@@ -1,6 +1,6 @@
-import PyOpenAI
+import ChatPyGPT
 
-gpt = PyOpenAI.Bot("YOUR_TOKEN_HERE")
+gpt = ChatPyGPT.Bot("YOUR_TOKEN_HERE")
 
 print(gpt.get_access_token()) # Gets and prints your token
 

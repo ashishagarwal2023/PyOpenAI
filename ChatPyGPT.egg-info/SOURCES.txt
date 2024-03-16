@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+ChatPyGPT/__init__.py
+ChatPyGPT/gpt.py
+ChatPyGPT.egg-info/PKG-INFO
+ChatPyGPT.egg-info/SOURCES.txt
+ChatPyGPT.egg-info/dependency_links.txt
+ChatPyGPT.egg-info/top_level.txt

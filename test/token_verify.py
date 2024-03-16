@@ -1,7 +1,7 @@
 # Test token and set it if it works.
-import PyOpenAI
+import ChatPyGPT
 
-gpt = PyOpenAI.Bot("YOUR_TOKEN_HERE")
+gpt = ChatPyGPT.Bot("YOUR_TOKEN_HERE")
 new_token = "MY_NEW_TOKEN" # The token we want to test and set
 
 if(gpt.verify(new_token)): # True

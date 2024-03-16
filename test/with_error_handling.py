@@ -1,12 +1,12 @@
 from requests import RequestException
-import PyOpenAI
+import ChatPyGPT
 
 token = "YOUR_TOKEN_HERE"
-gpt = PyOpenAI.Bot(token)
+gpt = ChatPyGPT.Bot(token)
 response = ""
 try:
     response = gpt.prompt("Hey, what's up?")
-except PyOpenAI.gpt.TokenRateLimitedError:
+except ChatPyGPT.gpt.TokenRateLimitedError:
     """
     This error would occur if:
     1. Token is rate limited: you need to wait 1 hour

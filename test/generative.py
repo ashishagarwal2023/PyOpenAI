@@ -1,6 +1,6 @@
-import PyOpenAI
+import ChatPyGPT
 
-gpt = PyOpenAI.Bot("YOUR_ACCESS_TOKEN")
+gpt = ChatPyGPT.Bot("YOUR_ACCESS_TOKEN")
 
 # By default it is conversation mode, gpt.reset() method would reset the conversation
 # The gpt.reset() doesn't perform any extra requests and it is literally executed in no time

@@ -1,4 +1,4 @@
-# PyOpenAI
+# ChatPyGPT
 
 A python package to efficiently switch between conversative and generative, get your conversation ID to test it and even more!
 

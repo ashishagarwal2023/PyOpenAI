@@ -1,5 +1,5 @@
 [project]
-name = "PyOpenAI"
+name = "ChatPyGPT"
 version = "1.0.0"
 authors = [
   { name="Ashish Agarwal", email="code.with.aasheesh@gmail.com" },

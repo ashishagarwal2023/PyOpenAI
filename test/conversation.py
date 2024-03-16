@@ -1,7 +1,7 @@
 # Conversation Mode Example
-import PyOpenAI # Import PyOpenAI
+import ChatPyGPT # Import PyOpenAI
 
-gpt = PyOpenAI.Bot("YOUR_TOKEN_HERE") # Initialize a bot with a token
+gpt = ChatPyGPT.Bot("YOUR_TOKEN_HERE") # Initialize a bot with a token
 gpt.prompt("Hey there! My name is Ashish.") # On the first success prompt, it gets a conversation ID
 gpt.prompt("What's my name?") # Your name is Ashish.
 # Bot remembers our name, because of the conversation.
